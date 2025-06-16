@@ -6,53 +6,68 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f1f1f1;
-      color: #333;
+      background-color: #000000; /* Fondo negro */
+      color: #ffffff;
       text-align: center;
       padding: 40px;
     }
+
     .card {
-      background-color: white;
+      background-color: #1a1a1a; /* Gris oscuro */
       max-width: 400px;
       margin: auto;
-      padding: 20px;
+      padding: 25px;
       border-radius: 15px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3); /* Sombra dorada */
     }
+
     .logo {
-      width: 200px;
+      width: 150px;
       height: auto;
-      margin-bottom: 15px;
+      margin-bottom: 20px;
     }
+
     h1 {
       margin: 10px 0;
       font-size: 22px;
+      color: #cfa935; /* Dorado */
     }
+
     p {
       margin: 5px 0;
+      color: #f0f0f0;
     }
+
+    .empresa {
+      font-weight: bold;
+      color: #cfa935;
+      margin-bottom: 15px;
+    }
+
     button {
       margin-top: 20px;
       padding: 12px 24px;
       font-size: 16px;
-      background-color: #0077cc;
-      color: white;
+      background-color: #cfa935;
+      color: #000;
       border: none;
       border-radius: 8px;
       cursor: pointer;
+      font-weight: bold;
     }
+
     button:hover {
-      background-color: #005fa3;
+      background-color: #b88f2a;
     }
   </style>
 </head>
 <body>
   <div class="card">
     <img src="logostunt.png" alt="Logo de la empresa" class="logo">
-    <p><strong>STUNT PART DE MÉXICO S.A. DE C.V.</strong></p>
+    <p class="empresa">STUNT PART DE MÉXICO S.A. DE C.V.</p>
     <h1>Oscar Monroy Santos</h1>
     <p><em>Asesor de Ventas</em></p>
-    <p></strong>55-20-79-17-78</p>
+    <p><strong>Teléfono:</strong> +52-55-20-79-17-78</p>
 
     <a href="oscar.vcf" download>
       <button>📥 Guardar contacto</button>
@@ -60,4 +75,3 @@
   </div>
 </body>
 </html>
-
